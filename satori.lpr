@@ -36,17 +36,17 @@ type
   protected
     procedure DoRun; override;
   public
+    pcap_handler:PPCap;
+    sniffThread:TPCapSniff;
     constructor Create(TheOwner: TComponent); override;
     destructor Destroy; override;
     procedure WriteHelp; virtual;
-    pcap_handler:PPCap;
-    sniffThread:TPCapSniff;
   private
+    pcap_interfaces: array of TPcapInterface;
+    pcapInterfacesCount:integer;
     procedure ListInterfaces;
     procedure GetInterfaces;
     procedure BindInterface(s:string);
-    pcap_interfaces: array of TPcapInterface;
-    pcapInterfacesCount:integer;
   end;
   
 var
