@@ -6,3 +6,5 @@ This is really just out here for historic purposes, I've had lots of requests fo
 
 
 Note, if you install Lazurus and go to compile it and get an error about "error while linking", make sure you install libpcap-dev!
+
+If you compile this with Lazurus, load project.lpr, go to Run > Build File and then you'll have a compiled satori file in the directory that you can run.
