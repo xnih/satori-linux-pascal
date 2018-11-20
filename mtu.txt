@@ -1,0 +1,52 @@
+# parts from p0f mtu.h file
+# others from RFCs and other sources
+256	radio modem
+296	PPP (low relay)
+386	ethernut
+508	ARCNET
+512	NETBIOS
+544	DEC IP Portal
+552	SLIP line / encap ppp
+576	sometimes modem, X.25 Networks
+1006	SLIP, ARPANET
+1280	gif tunnel
+1300	PIX, SMC, sometimes wireless
+1362	sometimes DSL (1)
+1372	cable modem
+1400	Google/AOL
+1415	sometimes wireless
+1420	GPRS T1 FreeS/WAN
+1423	sometimes cable
+1440	sometimes DSL (2)
+1442	IPIP tunnel
+1450	vtun
+1452	sometimes DSL (3)
+1454	sometimes DSL (4)
+1456	ISDN ppp
+1458	BT DSL (?)
+1462	sometimes DSL (5)
+1470	Google 2
+1476	IPSec/GRE
+1480	IPv6/IPIP
+1492	PPPOE (DSL), IEEE 802.3
+1496	vLAN
+1500	Ethernet, modem, PPP
+1536	Experimental Ethernet Network
+1656	Ericsson HIS
+2002	IEEE 802.5
+2024	wireless/IrDA
+2048	Cyclom X.25 WAN, Wireband Network
+2250	AiroNet wireless
+3924	loopback
+4056	token ring (1)
+4096	Sangoma X.25 WAN
+4352	FDDI
+4464	4 Mbit/sec token ring (IEEE 802.5)
+4500	token ring (2)
+8166	Token Bus (IEEE 802.4)
+9180	FORE ATM
+16384	sometimes loopback (1)
+16436	sometimes loopback (2)
+17914	16 Mbit/sec token ring
+18000	token ring x4
+65535	Hyperchannel
